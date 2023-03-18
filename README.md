@@ -1,2 +1,2 @@
 # codebuddy
-Your friendly neighborhood Coding AI. Ask Code Buddy coding questions you do not have the answer to. 
+Your friendly neighborhood Coding AI. Ask Code Buddy your coding questions that you do not have the answers to! 
