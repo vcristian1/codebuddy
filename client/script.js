@@ -81,3 +81,5 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv);
 }
+
+form.addEventListener('submit', handleSubmit);
