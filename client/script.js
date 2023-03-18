@@ -32,7 +32,7 @@ function typeText(element, text) {
       // If the text the AI returned has been fuly typed, clear the interval
       clearInterval(interval)
     }
-  }, 20)
+  }, 30)
 }
 
 // Function to generate unique ID for every message in order to map over them.
