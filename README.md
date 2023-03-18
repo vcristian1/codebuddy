@@ -1,5 +1,5 @@
 # Code Buddy
-Your friendly neighborhood Coding AI. Ask Code Buddy your coding questions that you do not have the answers to! 
+Your friendly neighborhood Coding AI. Ask Code Buddy your coding questions that you do not have the answers to.
 
 Using the OpenAI Chat API, you can build applications to do things like:
 
