@@ -26,7 +26,7 @@ function typeText(element, text) {
   let interval = setInterval(() => {
     if (index < text.length) {
       // Gets the character, under the specific index, in the text the AI is going to return.
-      element.innerHTML += text.chartAt(index);
+      element.innerHTML += text.charAt(index);
       index++
     } else {
       // If the text the AI returned has been fuly typed, clear the interval
