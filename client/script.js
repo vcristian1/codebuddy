@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from the server aka getting the AI response
 
-  const response = await fetch('http://localhost:3000', {
+  const response = await fetch('https://codebuddy1.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
