@@ -83,3 +83,9 @@ const handleSubmit = async (e) => {
 }
 
 form.addEventListener('submit', handleSubmit);
+// Another Event Listener for when you click enter to submit your question to Code Buddy.
+form.addEventListener('keyup', (e) => {
+ if (e.keyCode === 13) {
+  handleSubmit(e);
+ }
+})
