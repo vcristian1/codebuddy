@@ -17,3 +17,18 @@ function loader(element) {
     }
   }, 300)  
 }
+
+function typeText(element, text) {
+  let index = 0;
+
+  let interval = setInterval(() => {
+    if (index < text.length) {
+      // Gets the character, under the specific index, in the text the AI is going to return.
+      element.innerHTML += text.chartAt(index);
+      index++
+    } else {
+      // If the text the AI returned has been fuly typed, clear the interval
+      clearInterval(interval)
+    }
+  })
+}
